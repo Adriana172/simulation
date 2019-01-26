@@ -34,3 +34,4 @@ Configurable parameters include:
 * [-tree] write a TTree of hits and triggers :: default OFF
 * [-angx] flat distribution of angles, in degrees :: default 0
 * [-angy] flat distribution of angles, in degrees :: default 0
+# simulation

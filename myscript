@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in $(seq 0 100 1000); do
+./sim -n 100 -ch small -b $i -o "$i".root -tree &
+done
+
+for j in $(seq 2000 1000 10000); do
+./sim -n 100 -ch small -b $j -o "$j".root  -tree &
+done
+
+for l in $(seq 20000 10000 70000); do
+./sim -n 100 -ch small -b $l -o "$l".root -tree &
+done
